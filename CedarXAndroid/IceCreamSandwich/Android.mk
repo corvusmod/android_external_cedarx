@@ -27,6 +27,8 @@ LOCAL_C_INCLUDES += \
     $(TOP)/external/openssl/include \
     $(TOP)/frameworks/native/include/media/hardware 
 
+LOCAL_STATIC_LIBRARIES := libstagefright_rtsp
+
 LOCAL_SHARED_LIBRARIES := \
         libbinder         \
         libmedia          \
